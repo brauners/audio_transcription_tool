@@ -88,7 +88,7 @@ def split_in_chunks(path, folder_name):
         start_in_ms = start_in_ms % second_in_ms
         ms = str(start_in_ms).zfill(3)
 
-        chunk_filename = os.path.join(folder_name, f"chunk_{h}:{m}:{s}:{ms}.wav")
+        chunk_filename = os.path.join(folder_name, f"chunk_{h}-{m}-{s}-{ms}.wav")
         audio_chunk.export(chunk_filename, format="wav")
         start += len(audio_chunk)
 
