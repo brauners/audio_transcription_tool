@@ -8,4 +8,5 @@
 -i https://pypi.org/simple
 pydub==0.24.1
 pysimplegui==4.32.1
+simpleaudio==1.0.4
 speechrecognition==3.8.1
